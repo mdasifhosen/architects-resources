@@ -190,6 +190,17 @@ main > section{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+
+/* footer */
+.copy{
+    text-align: center;
+    height: 50px;
+    padding-top: 35px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    margin-top: 130px;
+
+}
 /* responsive media query*/
 
 @media screen and (max-width:576px) {
@@ -224,6 +235,9 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .copy{
+        font-size: 1rem;
     }
 }
 
